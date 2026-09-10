@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Mersi-3456/labinternal.git'
+                    url: 'https://github.com/Mersi-3456/labint.git'
             }
         }
 
